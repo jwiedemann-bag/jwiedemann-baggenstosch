@@ -1,0 +1,10 @@
+*Login workaccount
+*PIM-Elevation
+*Folder in eigenem Repo erstellen
+*Vorlage von BAG bicep-modules repo kopiert
+*bicepparam anpassen gem. Vorgaben
+*existierende Resourcen rechachieren (subscriptionID,private DNS, vnet etc)
+*Resourcegroup erstellen:"az group create --location switzerlandnorth --name tnca-sto1-csn-rg-jwi"
+*Start deployment: az deployment group create --name "20241017-codingarena-jwi-d1" --resource-group 'tnca-sto1-csn-rg-jwi' --template-file .\main.bicep --parameters .\main.bicepparam
+*login as admin.bag_xxxx - elevate admin.bag für IAM
+*PS für IAM erstellen,SubscriptionID vorsichtshalber aus GUI.
